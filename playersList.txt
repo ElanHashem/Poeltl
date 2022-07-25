@@ -1,0 +1,27 @@
+Lebron James,6`8,37,6,F,Lakers,Cavaliers;Heat
+Anthony Davis,6`10,29,3,F,Lakers,Pelicans
+Malik Monk,6`3,24,11,G,Lakers,Hornets
+Austin Reaves,6`5,24,15,G,Lakers,
+Russell Westbrook,6`3,33,0,G,Lakers,Thunder;Rockets;Wizards
+Luke Kennard,6`5,26,5,G,Clippers,Pistons
+Kawhi Leonard,6`7,30,2,F,Clippers,Spurs;Raptors
+Paul George,6`8,32,13,F,Clippers,Pacers;Thunder
+Terance Mann,6`5,25,14,G,Clippers,
+Reggie Jackson,6`2,32,1,G,Clippers,Thunder;Pistons
+Nicolas Batum,6`8,33,33,F,Clippers,Trail Blazers;Hornets
+Stephen Curry,6`2,34,30,G,Warriors,
+Klay Thompson,6`6,32,11,G,Warriors,
+Draymond Green,6`6,32,23,F,Warriors,
+Jordan Poole,6`4,23,3,G,Warriors,
+Andrew Wiggins,6`7,27,22,F,Warriors,Timberwoves
+Luka Doncic,6`7,23,77,G,Mavericks,
+Jalen Brunson,6`1,25,13,G,Mavericks,
+Tim Hardaway Jr,6`5,30,11,G,Mavericks,Knicks,Hawks
+Kyrie Irving,6`2,30,11,G,Nets,Cavaliers;Celtics
+Kevin Durant,6`10,33,7,F,Nets,Thunder;Warriors
+LaMelo Ball,6`7,20,2,G,Hornets,
+Jimmy Butler,6`7,32,22,F,Heat,Bulls;Timberwolves;76ers
+Kyle Lowry,6`0,36,7,G,Heat,Grizzlies;Rockets;Raptors
+Tyler Herro,6`5,22,14,G,Heat,
+Bam Adebayo,6`9,24,13,C,Heat,
+Pj Tucker,6`5,37,17,F,Heat,Raptors;Suns;Rockets;Bucks
