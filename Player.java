@@ -14,17 +14,6 @@ public class Player
     private ArrayList<Team> teamHistory;
 
 
-    //GET RID OF THIS CONSTRUCTOR
-    public Player(String name, String height, int age, String jerseyNumber,Team team,ArrayList<Team> teamHistory)
-    {
-        this.name = name;
-        this.height = height;
-        this.age = age;
-        this.jerseyNumber = jerseyNumber;
-        this.team = team;
-        this.teamHistory = teamHistory;
-       
-    }
 
     public Player(String name, String height, int age, String jerseyNumber,String position, Team team,ArrayList<Team> teamHistory)
     {
@@ -169,7 +158,7 @@ public class Player
 
     public static Team getTheTeam(String teamName) throws FileNotFoundException
     {
-        File teamsList = new File("C:\\Users\\elan0\\PotelProject\\teamsList.txt");
+        File teamsList = new File("teamsList.txt");
         Scanner scanner = new Scanner(teamsList);
         String teams;
         while(scanner.hasNextLine())
@@ -187,7 +176,7 @@ public class Player
 
     public static Player getThePlayer(String name) throws FileNotFoundException
     {
-        File f = new File("C:\\Users\\elan0\\PotelProject\\playersList.txt");
+        File f = new File("playersList.txt");
         Scanner scan  = new Scanner(f);
         String data;
 

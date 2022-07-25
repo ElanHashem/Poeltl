@@ -12,7 +12,7 @@ public class Poeltl
 
     public static Player randomPlayer() throws FileNotFoundException
     {
-        File f = new File("C:\\Users\\elan0\\PotelProject\\playersList.txt");
+        File f = new File("playersList.txt");
         Scanner scan  = new Scanner(f);
         String data;
         int randomNumber = (int)(Math.random()*NUM_DATABASE_PLAYERS);
