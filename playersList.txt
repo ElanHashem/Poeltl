@@ -13,7 +13,7 @@ Stephen Curry,6`2,34,30,G,Warriors,
 Klay Thompson,6`6,32,11,G,Warriors,
 Draymond Green,6`6,32,23,F,Warriors,
 Jordan Poole,6`4,23,3,G,Warriors,
-Andrew Wiggins,6`7,27,22,F,Warriors,Timberwoves
+Andrew Wiggins,6`7,27,22,F,Warriors,Timberwolves
 Luka Doncic,6`7,23,77,G,Mavericks,
 Jalen Brunson,6`1,25,13,G,Mavericks,
 Tim Hardaway Jr,6`5,30,11,G,Mavericks,Knicks,Hawks
