@@ -13,7 +13,10 @@ public class Solver
         boolean teamStat;
         boolean confrenceStat;
         boolean divisionStat;
-        
+        boolean positionStat;
+        boolean heightStat;
+        boolean heightGreaterLower;
+
         File f = new File("playersList.txt");
         Scanner scan  = new Scanner(f);
         String data;
@@ -29,34 +32,159 @@ public class Solver
             if(guessPlayer.equals(correctPlayer))
             {
                 int guesses = i+1;
-                System.out.println("Number of guesses: "+guesses);
+                System.out.println("Number of guesses: "+guesses+", Correct player: "+correctPlayer.getName());
                 break;
             }
 
-            if(guessPlayer.getTeam().equals(correctPlayer.getTeam()))
+            
+            for(int j=0;j<possiblePlayers.size();j++)
             {
-                teamStat = true;
+
+                //Team filtering
+                if(guessPlayer.getTeam().equals(correctPlayer.getTeam()))
+                {
+                    if(!possiblePlayers.get(j).getTeam().equals(guessPlayer.getTeam()))
+                    {
+                        System.out.println(possiblePlayers.get(j).getName());
+                        possiblePlayers.remove(j);
+                        j--;
+                        continue;
+                    }
+                }
+                else
+                {
+                    if(possiblePlayers.get(j).getTeam().equals(guessPlayer.getTeam()))
+                    {
+                        System.out.println(possiblePlayers.get(j).getName());
+                        possiblePlayers.remove(j);
+                        j--;
+                        continue;
+                    }
+                }
+                //confrence filtering
+                if(guessPlayer.getTeam().getConfrence().equals(correctPlayer.getTeam().getConfrence()))
+                {
+                    if(!possiblePlayers.get(j).getTeam().getConfrence().equals(guessPlayer.getTeam().getConfrence()))
+                    {
+                        System.out.println(possiblePlayers.get(j).getName());
+                        possiblePlayers.remove(j);
+                        j--;
+                        continue;
+                    }
+                }
+                else
+                {
+                    if(possiblePlayers.get(j).getTeam().getConfrence().equals(guessPlayer.getTeam().getConfrence()))
+                    {
+                        System.out.println(possiblePlayers.get(j).getName());
+                        possiblePlayers.remove(j);
+                        j--;
+                        continue;
+                    }
+                }
+                // division filtering
+                if(guessPlayer.getTeam().getDivision().equals(correctPlayer.getTeam().getDivision()))
+                {
+                    if(!possiblePlayers.get(j).getTeam().getDivision().equals(guessPlayer.getTeam().getDivision()))
+                    {
+                        System.out.println(possiblePlayers.get(j).getName());
+                        possiblePlayers.remove(j);
+                        j--;
+                        continue;
+                    }
+                }
+                else
+                {
+                    if(possiblePlayers.get(j).getTeam().getDivision().equals(guessPlayer.getTeam().getDivision()))
+                    {
+                        System.out.println(possiblePlayers.get(j).getName());
+                        possiblePlayers.remove(j);
+                        j--;
+                        continue;
+                    }
+                }
+                // position filtering
+                if(guessPlayer.getPosition().equals(correctPlayer.getPosition()))
+                {
+                    if(!possiblePlayers.get(j).getPosition().equals(guessPlayer.getPosition()))
+                    {
+                        System.out.println(possiblePlayers.get(j).getName());
+                        possiblePlayers.remove(j);
+                        j--;
+                        continue;
+                    }
+                }
+                else
+                {
+                    if(possiblePlayers.get(j).getPosition().equals(guessPlayer.getPosition()))
+                    {
+                        System.out.println(possiblePlayers.get(j).getName());
+                        possiblePlayers.remove(j);
+                        j--;
+                        continue;
+                    }
+                }
+                //age filtering
+                if(guessPlayer.getAge()==correctPlayer.getAge())
+                {
+                    if(!(possiblePlayers.get(j).getAge()==guessPlayer.getAge()))
+                    {
+                        System.out.println(possiblePlayers.get(j).getName());
+                        possiblePlayers.remove(j);
+                        j--;
+                        continue;
+                    }
+                }
+                else if(guessPlayer.getAge()<correctPlayer.getAge())
+                {
+                    if(Math.abs(guessPlayer.getAge()-correctPlayer.getAge())<=2)
+                    {
+                        if(!(Math.abs(possiblePlayers.get(j).getAge()-guessPlayer.getAge())<=2&&Math.abs(possiblePlayers.get(j).getAge()-guessPlayer.getAge())>0)||possiblePlayers.get(j).getAge()<=guessPlayer.getAge())
+                        {
+                            System.out.println(possiblePlayers.get(j).getName());
+                            possiblePlayers.remove(j);
+                            j--;
+                            continue;
+                        }
+                    }
+                    else
+                    {
+                        if(possiblePlayers.get(j).getAge()<=guessPlayer.getAge())
+                        {
+                            System.out.println(possiblePlayers.get(j).getName());
+                            possiblePlayers.remove(j);
+                            j--;
+                            continue;
+                        }
+                    }
+                }
+                else
+                {
+                    if(Math.abs(guessPlayer.getAge()-correctPlayer.getAge())<=2)
+                    {
+                        if(!(Math.abs(possiblePlayers.get(j).getAge()-guessPlayer.getAge())<=2&&Math.abs(possiblePlayers.get(j).getAge()-guessPlayer.getAge())>0)||possiblePlayers.get(j).getAge()>=guessPlayer.getAge())
+                        {
+                            System.out.println(possiblePlayers.get(j).getName());
+                            possiblePlayers.remove(j);
+                            j--;
+                            continue;
+                        }
+                    }
+                    else
+                    {
+                        if(possiblePlayers.get(j).getAge()>=guessPlayer.getAge())
+                        {
+                            System.out.println(possiblePlayers.get(j).getName());
+                            possiblePlayers.remove(j);
+                            j--;
+                            continue;
+                        }
+                    }
+                }
             }
-            else
-            {
-                teamStat = false;
-            }
-            if(guessPlayer.getTeam().getConfrence().equals(correctPlayer.getTeam().getConfrence()))
-            {
-                confrenceStat = true;
-            }
-            else
-            {
-                confrenceStat = false;
-            }
-            if(guessPlayer.getTeam().getDivision().equals(correctPlayer.getTeam().getDivision()))
-            {
-                divisionStat = true;
-            }
-            else
-            {
-                divisionStat = false;
-            }
+            guessPlayer = possiblePlayers.get(0);
+            System.out.println(i);
+            System.out.println("size = "+possiblePlayers.size());
 
         }
     }
