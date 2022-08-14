@@ -25,3 +25,16 @@ Kyle Lowry,6`0,36,7,G,Heat,Grizzlies;Rockets;Raptors
 Tyler Herro,6`5,22,14,G,Heat,
 Bam Adebayo,6`9,24,13,C,Heat,
 Pj Tucker,6`5,37,17,F,Heat,Raptors;Suns;Rockets;Bucks
+Jayson Tatum,6`8,24,0,F,Celtics,
+Jaylen Brown,6`6,25,7,G,Celtics,
+Marcus Smart,6`3,28,36,G,Celtics,
+Al Horford,6`9,36,42,C,Celtics,Thunder;76ers;Hawks
+Giannis Antetokounmpo,6`11,27,34,F,Bucks,
+Khris Middleton,6`7,31,22,F,Bucks,Pistons
+Jrue Holiday,6`3,32,21,G,Bucks,Pelicans;76ers
+Bobby Portis,6`10,27,9,F,Bucks,Knicks;Wizards;Bulls
+D'Angelo Russell,6`4,26,0,G,Timberwolves,Warriors;Nets;Lakers
+Anthony Edwards,6`4,21,1,G,Timberwolves,
+Patrick Beverley,6`1,34,22,G,Timberwolves,Clippers;Rockets
+Karl-Anthony Towns,6`11,26,32,C,Timberwolves,
+Shai Gilgeous-Alexander,6`6,24,2,G,Thunder,Clippers

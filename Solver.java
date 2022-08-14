@@ -60,6 +60,16 @@ public class Solver
                         j--;
                         continue;
                     }
+                    if(correctPlayer.hasBeenOnTeam(guessPlayer.getTeam()))
+                    {
+                        if(!possiblePlayers.get(j).hasBeenOnTeam(guessPlayer.getTeam()))
+                        {
+                            System.out.println(possiblePlayers.get(j).getName());
+                            possiblePlayers.remove(j);
+                            j--;
+                            continue;
+                        }
+                    }
                 }
                 //confrence filtering
                 if(guessPlayer.getTeam().getConfrence().equals(correctPlayer.getTeam().getConfrence()))
@@ -183,7 +193,6 @@ public class Solver
                 }
             }
             guessPlayer = possiblePlayers.get(0);
-            System.out.println(i);
             System.out.println("size = "+possiblePlayers.size());
 
         }
