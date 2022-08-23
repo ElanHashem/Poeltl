@@ -191,7 +191,63 @@ public class Solver
                         }
                     }
                 }
-                //number filtering
+                //jersey number filtering
+                if(guessPlayer.compareJerseyNumber(correctPlayer)==0)
+                {
+                    if(!(possiblePlayers.get(j).getJerseyNumber().equals(guessPlayer.getJerseyNumber())))
+                    {
+                            System.out.println(possiblePlayers.get(j).getName());
+                            possiblePlayers.remove(j);
+                            j--;
+                            continue;
+                    }
+                }
+                else if(guessPlayer.compareJerseyNumber(correctPlayer)<0)
+                {
+                    if(guessPlayer.isJerseyNumberClose(correctPlayer))
+                    {
+                        if(!(possiblePlayers.get(j).isJerseyNumberClose(guessPlayer))||guessPlayer.compareJerseyNumber(possiblePlayers.get(j))>=0)
+                        {
+                            System.out.println(possiblePlayers.get(j).getName());
+                            possiblePlayers.remove(j);
+                            j--;
+                            continue;
+                        }
+                    }
+                    else
+                    {
+                        if(guessPlayer.compareJerseyNumber(possiblePlayers.get(j))>=0)
+                        {
+                            System.out.println(possiblePlayers.get(j).getName());
+                            possiblePlayers.remove(j);
+                            j--;
+                            continue;
+                        }
+                    }
+                }
+                else
+                {
+                    if(guessPlayer.isJerseyNumberClose(correctPlayer))
+                    {
+                        if(!(possiblePlayers.get(j).isJerseyNumberClose(guessPlayer))||guessPlayer.compareJerseyNumber(possiblePlayers.get(j))<=0)
+                        {
+                            System.out.println(possiblePlayers.get(j).getName());
+                            possiblePlayers.remove(j);
+                            j--;
+                            continue;
+                        }
+                    }
+                    else
+                    {
+                        if(guessPlayer.compareJerseyNumber(possiblePlayers.get(j))<=0)
+                        {
+                            System.out.println(possiblePlayers.get(j).getName());
+                            possiblePlayers.remove(j);
+                            j--;
+                            continue;
+                        }
+                    }
+                }
             }
             guessPlayer = possiblePlayers.get(0);
             System.out.println("size = "+possiblePlayers.size());
