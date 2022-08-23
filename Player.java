@@ -99,7 +99,7 @@ public class Player
     {
         int thisNum = Integer.parseInt(this.jerseyNumber);
         int otherNum = Integer.parseInt(other.jerseyNumber);
-        if(Math.abs(thisNum-otherNum)<=2)
+        if(Math.abs(thisNum-otherNum)<=2&&Math.abs(thisNum-otherNum)>0)
         {
             return true;
         }

@@ -191,6 +191,7 @@ public class Solver
                         }
                     }
                 }
+                //number filtering
             }
             guessPlayer = possiblePlayers.get(0);
             System.out.println("size = "+possiblePlayers.size());
