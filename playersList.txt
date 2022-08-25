@@ -38,3 +38,13 @@ Anthony Edwards,6`4,21,1,G,Timberwolves,
 Patrick Beverley,6`1,34,22,G,Timberwolves,Clippers;Rockets
 Karl-Anthony Towns,6`11,26,32,C,Timberwolves,
 Shai Gilgeous-Alexander,6`6,24,2,G,Thunder,Clippers
+Josh Giddy,6`8,19,3,G,Thunder,
+Tre Mann,6`3,21,23,G,Thunder,
+Luguentz Dort,6`3,23,5,G,Thunder,
+Theo Maledon,6`4,21,11,G,Thunder,
+Aleksej Pokusevski,7`0,20,17,F,Thunder,
+Damian Lillard,6`2,32,0,G,Trail Blazers,
+Josh Hart,6`5,27,11,G,Trail Blazers,Pelicans;Lakers
+Anfernee Simons,6`3,23,1,G,Trail Blazers,
+Jusuf Nurkic,6`11,28,27,C,Trail Blazers,Nuggets
+Nassir Little,6`5,22,9,F,Trail Blazers,
