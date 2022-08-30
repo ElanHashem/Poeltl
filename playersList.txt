@@ -19,6 +19,7 @@ Jalen Brunson,6`1,25,13,G,Mavericks,
 Tim Hardaway Jr,6`5,30,11,G,Mavericks,Knicks,Hawks
 Kyrie Irving,6`2,30,11,G,Nets,Cavaliers;Celtics
 Kevin Durant,6`10,33,7,F,Nets,Thunder;Warriors
+Joe Harris,6`6,30,12,F,Nets,Cavaliers
 LaMelo Ball,6`7,20,2,G,Hornets,
 Jimmy Butler,6`7,32,22,F,Heat,Bulls;Timberwolves;76ers
 Kyle Lowry,6`0,36,7,G,Heat,Grizzlies;Rockets;Raptors
@@ -32,11 +33,13 @@ Al Horford,6`9,36,42,C,Celtics,Thunder;76ers;Hawks
 Giannis Antetokounmpo,6`11,27,34,F,Bucks,
 Khris Middleton,6`7,31,22,F,Bucks,Pistons
 Jrue Holiday,6`3,32,21,G,Bucks,Pelicans;76ers
-Bobby Portis,6`10,27,9,F,Bucks,Knicks;Wizards;Bulls
+Bobby Portis,6`10,27,9,C,Bucks,Knicks;Wizards;Bulls
+Brook Lopez,7`0,34,11,C,Bucks,Nets;Lakers
 D'Angelo Russell,6`4,26,0,G,Timberwolves,Warriors;Nets;Lakers
 Anthony Edwards,6`4,21,1,G,Timberwolves,
 Patrick Beverley,6`1,34,22,G,Timberwolves,Clippers;Rockets
 Karl-Anthony Towns,6`11,26,32,C,Timberwolves,
+Malik Beasley,6`4,25,5,G,Timberwolves,Nuggets
 Shai Gilgeous-Alexander,6`6,24,2,G,Thunder,Clippers
 Josh Giddy,6`8,19,3,G,Thunder,
 Tre Mann,6`3,21,23,G,Thunder,
@@ -48,3 +51,17 @@ Josh Hart,6`5,27,11,G,Trail Blazers,Pelicans;Lakers
 Anfernee Simons,6`3,23,1,G,Trail Blazers,
 Jusuf Nurkic,6`11,28,27,C,Trail Blazers,Nuggets
 Nassir Little,6`5,22,9,F,Trail Blazers,
+Jamal Murray,6`3,25,27,G,Nuggets,
+Nikola Jokic,6`11,27,15,C,Nuggets,
+Aaron Gordon,6`8,26,50,F,Nuggets,Magic
+Michael Porter Jr,6`10,24,1,F,Nuggets,
+Bones Hyland,6`3,21,3,G,Nuggets,
+Will Barton,6`6,31,5,G,Nuggets,Trail Blazers
+Donovan Mitchell,6`1,25,45,G,Jazz,
+Rudy Gobert,7`1,30,27,C,Jazz,
+Mike Conley,6`1,34,11,G,Jazz,Grizzlies
+Bojan Bogdanovic,6`7,33,44,F,Jazz,Nets;Wizards;Pacers
+Brandon Ingram,6`8,24,14,F,Pelicans,Lakers
+Zion Williamson,6`6,22,1,F,Pelicans,
+CJ McCollum,6`3,30,3,G,Pelicans,Trail Blazers
+Herb Jones,6`8,23,5,F,Pelicans,
