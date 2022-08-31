@@ -17,6 +17,9 @@ Andrew Wiggins,6`7,27,22,F,Warriors,Timberwolves
 Luka Doncic,6`7,23,77,G,Mavericks,
 Jalen Brunson,6`1,25,13,G,Mavericks,
 Tim Hardaway Jr,6`5,30,11,G,Mavericks,Knicks,Hawks
+Spencer Dinwiddie,6`5,29,26,G,Mavericks,Pistons;Nets;Wizards
+Reggie Bullock,6`6,31,25,F,Mavericks,Clippers;Suns;Pistons;Lakers;Knicks
+Dwight Powell,6`10,31,7,C,Mavericks,Celtics
 Kyrie Irving,6`2,30,11,G,Nets,Cavaliers;Celtics
 Kevin Durant,6`10,33,7,F,Nets,Thunder;Warriors
 Joe Harris,6`6,30,12,F,Nets,Cavaliers
@@ -68,3 +71,30 @@ Herb Jones,6`8,23,5,F,Pelicans,
 Trey Murphy,6`9,22,25,F,Pelicans,
 Jonas Valanciunas,6`11,30,17,C,Pelicans,Raptors;Grizzlies
 Ja Morant,6`3,23,12,G,Grizzlies,
+Desmond Bane,6`5,24,22,G,Grizzlies,
+Dillon Brooks,6`7,26,24,F,Grizzlies,
+Jaren Jackson Jr,6`11,22,13,F,Grizzlies,
+Brandon Clarke,6`8,25,15,F,Grizzlies,
+Steven Adams,6`11,29,4,C,Grizzlies,Thunder;Pelicans
+Dejounte Murray,6`4,25,5,G,Spurs,
+Lonnie Walker,6`4,23,1,G,Spurs,
+Jakob Poeltl,7`1,26,25,C,Spurs,Raptors
+Devin Vassell,6`5,22,24,F,Spurs,
+Tre Jones,6`1,22,33,G,Spurs,
+Jalen Green,6`4,20,0,G,Rockets,
+Kevin Porter Jr,6`4,22,3,G,Rockets,Cavaliers
+Josh Christopher,6`5,20,9,G,Rockets,
+Alperen Sengun,6`9,20,28,C,Rockets
+Eric Gordon,6`3,33,10,G,Rockets,Clippers;Pelicans
+Christian Wood,6`10,26,35,C,Rockets,76ers;Hornets;Bucks;Pelicans;Pistons
+Devin Booker,6`5,25,1,G,Suns,
+Chris Paul,6`0,37,3,G,Suns,Pelicans;Clippers;Rockets;Thunder
+Deandre Ayton,6`11,24,22,C,Suns,
+Mikal Bridges,6`6,26,25,F,Suns,
+Cameron Johnson,6`8,26,23,F,Suns,
+Jae Crowder,6`6,32,99,F,Suns,Mavericks;Celtics;Cavaliers;Jazz;Grizzlies;Heat
+De'Aaron Fox,6`3,24,5,G,Kings,
+Domantas Sabonis,6`11,26,10,F,Kings,Pacers
+Davion Mitchell,6`2,23,15,G,Kings,
+Richaun Holmes,6`10,28,22,C,Kings,76ers;Suns
+Harrison Barnes,6`8,30,40,F,Kings,Warriors;Mavericks
