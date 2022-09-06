@@ -2,6 +2,8 @@ Lebron James,6`8,37,6,F,Lakers,Cavaliers;Heat
 Anthony Davis,6`10,29,3,F,Lakers,Pelicans
 Malik Monk,6`3,24,11,G,Lakers,Hornets
 Austin Reaves,6`5,24,15,G,Lakers,
+Dwight Howard,6`10,36,39,C,Lakers,Magic;Rockets;Hawks;Hornets;Wizards;76ers
+Carmelo Anthony,6`7,38,7,F,Lakers,Nuggets;Knicks;Thunder;Rockets;Trail Blazers
 Russell Westbrook,6`3,33,0,G,Lakers,Thunder;Rockets;Wizards
 Luke Kennard,6`5,26,5,G,Clippers,Pistons
 Kawhi Leonard,6`7,30,2,F,Clippers,Spurs;Raptors
@@ -14,6 +16,8 @@ Klay Thompson,6`6,32,11,G,Warriors,
 Draymond Green,6`6,32,23,F,Warriors,
 Jordan Poole,6`4,23,3,G,Warriors,
 Andrew Wiggins,6`7,27,22,F,Warriors,Timberwolves
+Gary Payton Jr,6`3,29,0,F,Warriors,Bucks;Lakers;Wizards
+Andre Iguodala,6`6,38,9,F,Warriors,76ers;Nuggets;Heat
 Luka Doncic,6`7,23,77,G,Mavericks,
 Jalen Brunson,6`1,25,13,G,Mavericks,
 Tim Hardaway Jr,6`5,30,11,G,Mavericks,Knicks,Hawks
@@ -117,3 +121,14 @@ Trae Young,6`1,23,11,G,Hawks,
 Bogdan Bogdanovic,6`6,30,13,G,Hawks,Kings
 John Collins,6`9,24,20,F,Hawks,
 Clint Capela,6`10,28,15,C,Hawks,Rockets
+De`Andre Hunter,6`8,24,12,F,Hawks,
+Onyeka Okongwu,6`8,21,17,C,Hawks,
+Lou Williams,6`1,35,6,G,Hawks,76ers;Raptors;Lakers;Rockets;Clippers
+Kevin Huerter,6`7,24,3,G,Hawks,
+Jalen Suggs,6`4,21,4,G,Magic,
+Cole Anthony,6`2,22,50,G,Magic,
+Mo Bamba,7`0,24,5,C,Magic,
+Wendell Carter Jr,6`10,23,34,C,Magic,Bulls
+Franz Wagner,6`9,21,22,F,Magic,
+Terrence Ross,6`6,31,8,F,Magic,Raptors
+Markelle Fultz,6`3,24,20,G,Magic,76ers

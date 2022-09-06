@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class Poeltl
 {
-    private static final int NUM_DATABASE_PLAYERS = 119;
+    private static final int NUM_DATABASE_PLAYERS = 134;
     
 
     public static Player randomPlayer() throws FileNotFoundException
@@ -80,7 +80,7 @@ public class Poeltl
             }
             else if(correctPlayer.hasBeenOnTeam(guessPlayer.getTeam()))
             {
-                teamOutput = guessPlayer.getTeam().getName()+" has been on this team";
+                teamOutput = guessPlayer.getTeam().getName()+" is a team that the player used to play on";
             }
             else
             {
