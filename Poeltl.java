@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class Poeltl
 {
-    private static final int NUM_DATABASE_PLAYERS = 100;
+    private static final int NUM_DATABASE_PLAYERS = 119;
     
 
     public static Player randomPlayer() throws FileNotFoundException

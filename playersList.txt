@@ -24,11 +24,19 @@ Kyrie Irving,6`2,30,11,G,Nets,Cavaliers;Celtics
 Kevin Durant,6`10,33,7,F,Nets,Thunder;Warriors
 Joe Harris,6`6,30,12,F,Nets,Cavaliers
 LaMelo Ball,6`7,20,2,G,Hornets,
+Miles Bridges,6`6,24,0,F,Hornets,
+Kelly Oubre Jr,6`7,27,12,F,Hornets,Wizards;Suns;Warriors
+Terry Rozier,6`1,28,3,G,Hornets,Celtics
+Gordon Hayword,6`7,32,20,F,Hornets,Jazz;Celtics
+Mason Plumlee,6`11,32,24,C,Hornets,Nets;Trail Blazers;Nuggets;Pistons
+Montrezl Harrell,6`7,8,28,C,Hornets,Rockets;Clippers;Lakers;Wizards
 Jimmy Butler,6`7,32,22,F,Heat,Bulls;Timberwolves;76ers
 Kyle Lowry,6`0,36,7,G,Heat,Grizzlies;Rockets;Raptors
 Tyler Herro,6`5,22,14,G,Heat,
 Bam Adebayo,6`9,24,13,C,Heat,
 Pj Tucker,6`5,37,17,F,Heat,Raptors;Suns;Rockets;Bucks
+Duncan Robinson,6`7,28,55,G,Heat,
+Victor Oladipo,6`4,30,4,G,Heat,Magic;Thunder;Pacers;Rockets
 Jayson Tatum,6`8,24,0,F,Celtics,
 Jaylen Brown,6`6,25,7,G,Celtics,
 Marcus Smart,6`3,28,36,G,Celtics,
@@ -98,3 +106,14 @@ Domantas Sabonis,6`11,26,10,F,Kings,Pacers
 Davion Mitchell,6`2,23,15,G,Kings,
 Richaun Holmes,6`10,28,22,C,Kings,76ers;Suns
 Harrison Barnes,6`8,30,40,F,Kings,Warriors;Mavericks
+Bradley Beal,6`4,29,3,G,Wizards,
+Kyle Kuzma,6`9,27,33,F,Wizards,Lakers
+Kristaps Porzingis,7`3,27,6,F,Wizards,Knicks;Mavericks
+Kentavious Caldwell-Pope,6`5,29,1,G,Wizards,Lakers;Pistons
+Rui Hachimura,6`8,24,8,F,Wizards,
+Deni Avdija,6`9,21,9,F,Wizards,
+Corey Kispert,6`7,23,24,F,Wizards,
+Trae Young,6`1,23,11,G,Hawks,
+Bogdan Bogdanovic,6`6,30,13,G,Hawks,Kings
+John Collins,6`9,24,20,F,Hawks,
+Clint Capela,6`10,28,15,C,Hawks,Rockets
