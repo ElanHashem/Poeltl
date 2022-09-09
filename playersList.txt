@@ -27,6 +27,10 @@ Dwight Powell,6`10,31,7,C,Mavericks,Celtics
 Kyrie Irving,6`2,30,11,G,Nets,Cavaliers;Celtics
 Kevin Durant,6`10,33,7,F,Nets,Thunder;Warriors
 Joe Harris,6`6,30,12,F,Nets,Cavaliers
+Seth Curry,6`2,32,30,G,Nets,Grizzlies;Cavaliers;Suns;Kings;Mavericks;Trail Blazers;76ers
+Bruce Brown,6`4,26,1,F,Nets,Pistons
+Nic Claxton,6`11,23,33,C,Nets,
+Patty Mills,6`1,34,8,G,Nets,Spurs;Trail Blazers
 LaMelo Ball,6`7,20,2,G,Hornets,
 Miles Bridges,6`6,24,0,F,Hornets,
 Kelly Oubre Jr,6`7,27,12,F,Hornets,Wizards;Suns;Warriors
@@ -45,11 +49,16 @@ Jayson Tatum,6`8,24,0,F,Celtics,
 Jaylen Brown,6`6,25,7,G,Celtics,
 Marcus Smart,6`3,28,36,G,Celtics,
 Al Horford,6`9,36,42,C,Celtics,Thunder;76ers;Hawks
+Robert Williams,6`8,24,44,C,Celtics
+Grant Williams,6`6,23,12,F,Celtics,
+Derrick White,6`4,28,9,Celtics,Spurs
 Giannis Antetokounmpo,6`11,27,34,F,Bucks,
 Khris Middleton,6`7,31,22,F,Bucks,Pistons
 Jrue Holiday,6`3,32,21,G,Bucks,Pelicans;76ers
 Bobby Portis,6`10,27,9,C,Bucks,Knicks;Wizards;Bulls
 Brook Lopez,7`0,34,11,C,Bucks,Nets;Lakers
+Grayson Allen,6`4,26,7,G,Bucks,Jazz;Grizzlies
+Pat Connaughton,6`5,29,24,G,Bucks,Trail Blazers
 D'Angelo Russell,6`4,26,0,G,Timberwolves,Warriors;Nets;Lakers
 Anthony Edwards,6`4,21,1,G,Timberwolves,
 Patrick Beverley,6`1,34,22,G,Timberwolves,Clippers;Rockets
@@ -132,3 +141,29 @@ Wendell Carter Jr,6`10,23,34,C,Magic,Bulls
 Franz Wagner,6`9,21,22,F,Magic,
 Terrence Ross,6`6,31,8,F,Magic,Raptors
 Markelle Fultz,6`3,24,20,G,Magic,76ers
+Cade Cunningham,6`6,20,2,G,Pistons,
+Saddiq Bey,6`7,23,41,F,Pistons,
+Marvin Bagley,6`11,23,35,F,Pistons,Kings
+Isaiah Stewart,6`8,21,28,C,Pistons,
+Kelly Olynyk,6`11,31,13,C,Pistons,Celtics;Heat;Rockets
+Killian Hayes,6`5,21,7,G,Pistons,
+Hamidou Diallo,6`5,24,6,G,Pistons,Thunder
+Darius Garland,6`1,22,10,G,Cavaliers,
+Evan Mobley,7`0,20,4,C,Cavaliers,
+Jarret Allen,6`11,24,31,C,Cavaliers,Nets
+Caris LeVert,6`6,28,3,F,Cavaliers,Nets;Pacers
+Kevin Love,6`8,34,0,F,Cavaliers,Timberwolves
+Lauri Markkanen,7`0,25,24,F,Cavaliers,Bulls
+Isaac Okoro,6`5,21,35,G,Cavaliers,
+Lonzo Ball,6`6,24,2,G,Bulls,Lakers;Pelicans
+DeMar DeRozen,6`6,33,11,F,Bulls,Raptors;Spurs
+Zach Lavine,6`5,27,8,G,Bulls,Timberwolves
+Nikola Vucevic,6`10,31,9,C,Bulls,Magic;76ers
+Patrick Williams,6`7,21,44,F,Bulls,
+Alex Caruso,6`4,28,6,G,Bulls,Lakers
+Ayo Dosunmu,6`5,22,12,G,Bulls,
+Tyrese Haliburton,6`5,22,0,G,Pacers,Kings
+Malcolm Brogdon,6`5,29,7,G,Pacers,Bucks
+Buddy Hield,6`4,29,24,G,Pacers,Kings;Pelicans
+Myles Turner,6`11,26,33,C,Pacers,
+Chris Duarte,6`6,25,3,G,Pacers,
