@@ -167,3 +167,5 @@ Malcolm Brogdon,6`5,29,7,G,Pacers,Bucks
 Buddy Hield,6`4,29,24,G,Pacers,Kings;Pelicans
 Myles Turner,6`11,26,33,C,Pacers,
 Chris Duarte,6`6,25,3,G,Pacers,
+RJ Barrett,6`6,22,9,F,Knicks,
+Juluis Randle,6`8,27,30,F,Knicks,Lakers;Pelicans
