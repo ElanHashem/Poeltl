@@ -254,4 +254,237 @@ public class Solver
 
         }
     }
+
+    public static double pickTheSolved(String name) throws FileNotFoundException
+    {
+        Player correctPlayer = Player.getThePlayer(name);
+        LinkedList<Player> possiblePlayers = new LinkedList<Player>();
+        Player guessPlayer = Player.getThePlayer("Andrew Wiggins");
+        boolean teamStat;
+        boolean confrenceStat;
+        boolean divisionStat;
+        boolean positionStat;
+        boolean heightStat;
+        boolean heightGreaterLower;
+
+        File f = new File("playersList.txt");
+        Scanner scan  = new Scanner(f);
+        String data;
+        while(scan.hasNextLine())
+        {
+            data = scan.nextLine();
+            Player temp = Player.getThePlayer(data.split(",")[0]);
+            possiblePlayers.add(temp);
+        }
+
+        for(int i=0;i<8;i++)
+        {
+            if(guessPlayer.equals(correctPlayer))
+            {
+                int guesses = i+1;
+                System.out.println(guesses+" guesses for "+correctPlayer.getName());
+                return (double)guesses;
+                
+            }
+
+            
+            for(int j=0;j<possiblePlayers.size();j++)
+            {
+
+                //Team filtering
+                if(guessPlayer.getTeam().equals(correctPlayer.getTeam()))
+                {
+                    if(!possiblePlayers.get(j).getTeam().equals(guessPlayer.getTeam()))
+                    {
+                        possiblePlayers.remove(j);
+                        j--;
+                        continue;
+                    }
+                }
+                else
+                {
+                    if(possiblePlayers.get(j).getTeam().equals(guessPlayer.getTeam()))
+                    {
+                        possiblePlayers.remove(j);
+                        j--;
+                        continue;
+                    }
+                    if(correctPlayer.hasBeenOnTeam(guessPlayer.getTeam()))
+                    {
+                        if(!possiblePlayers.get(j).hasBeenOnTeam(guessPlayer.getTeam()))
+                        {
+                            possiblePlayers.remove(j);
+                            j--;
+                            continue;
+                        }
+                    }
+                }
+                //confrence filtering
+                if(guessPlayer.getTeam().getConfrence().equals(correctPlayer.getTeam().getConfrence()))
+                {
+                    if(!possiblePlayers.get(j).getTeam().getConfrence().equals(guessPlayer.getTeam().getConfrence()))
+                    {
+                        possiblePlayers.remove(j);
+                        j--;
+                        continue;
+                    }
+                }
+                else
+                {
+                    if(possiblePlayers.get(j).getTeam().getConfrence().equals(guessPlayer.getTeam().getConfrence()))
+                    {
+                        possiblePlayers.remove(j);
+                        j--;
+                        continue;
+                    }
+                }
+                // division filtering
+                if(guessPlayer.getTeam().getDivision().equals(correctPlayer.getTeam().getDivision()))
+                {
+                    if(!possiblePlayers.get(j).getTeam().getDivision().equals(guessPlayer.getTeam().getDivision()))
+                    {
+                        possiblePlayers.remove(j);
+                        j--;
+                        continue;
+                    }
+                }
+                else
+                {
+                    if(possiblePlayers.get(j).getTeam().getDivision().equals(guessPlayer.getTeam().getDivision()))
+                    {
+                        possiblePlayers.remove(j);
+                        j--;
+                        continue;
+                    }
+                }
+                // position filtering
+                if(guessPlayer.getPosition().equals(correctPlayer.getPosition()))
+                {
+                    if(!possiblePlayers.get(j).getPosition().equals(guessPlayer.getPosition()))
+                    {
+                        possiblePlayers.remove(j);
+                        j--;
+                        continue;
+                    }
+                }
+                else
+                {
+                    if(possiblePlayers.get(j).getPosition().equals(guessPlayer.getPosition()))
+                    {
+                        possiblePlayers.remove(j);
+                        j--;
+                        continue;
+                    }
+                }
+                //age filtering
+                if(guessPlayer.getAge()==correctPlayer.getAge())
+                {
+                    if(!(possiblePlayers.get(j).getAge()==guessPlayer.getAge()))
+                    {
+                        possiblePlayers.remove(j);
+                        j--;
+                        continue;
+                    }
+                }
+                else if(guessPlayer.getAge()<correctPlayer.getAge())
+                {
+                    if(Math.abs(guessPlayer.getAge()-correctPlayer.getAge())<=2)
+                    {
+                        if(!(Math.abs(possiblePlayers.get(j).getAge()-guessPlayer.getAge())<=2&&Math.abs(possiblePlayers.get(j).getAge()-guessPlayer.getAge())>0)||possiblePlayers.get(j).getAge()<=guessPlayer.getAge())
+                        {
+                            possiblePlayers.remove(j);
+                            j--;
+                            continue;
+                        }
+                    }
+                    else
+                    {
+                        if(possiblePlayers.get(j).getAge()<=guessPlayer.getAge())
+                        {
+                            possiblePlayers.remove(j);
+                            j--;
+                            continue;
+                        }
+                    }
+                }
+                else
+                {
+                    if(Math.abs(guessPlayer.getAge()-correctPlayer.getAge())<=2)
+                    {
+                        if(!(Math.abs(possiblePlayers.get(j).getAge()-guessPlayer.getAge())<=2&&Math.abs(possiblePlayers.get(j).getAge()-guessPlayer.getAge())>0)||possiblePlayers.get(j).getAge()>=guessPlayer.getAge())
+                        {
+                            possiblePlayers.remove(j);
+                            j--;
+                            continue;
+                        }
+                    }
+                    else
+                    {
+                        if(possiblePlayers.get(j).getAge()>=guessPlayer.getAge())
+                        {
+                            possiblePlayers.remove(j);
+                            j--;
+                            continue;
+                        }
+                    }
+                }
+                //jersey number filtering
+                if(guessPlayer.compareJerseyNumber(correctPlayer)==0)
+                {
+                    if(!(possiblePlayers.get(j).getJerseyNumber().equals(guessPlayer.getJerseyNumber())))
+                    {
+                            possiblePlayers.remove(j);
+                            j--;
+                            continue;
+                    }
+                }
+                else if(guessPlayer.compareJerseyNumber(correctPlayer)<0)
+                {
+                    if(guessPlayer.isJerseyNumberClose(correctPlayer))
+                    {
+                        if(!(possiblePlayers.get(j).isJerseyNumberClose(guessPlayer))||guessPlayer.compareJerseyNumber(possiblePlayers.get(j))>=0)
+                        {
+                            possiblePlayers.remove(j);
+                            j--;
+                            continue;
+                        }
+                    }
+                    else
+                    {
+                        if(guessPlayer.compareJerseyNumber(possiblePlayers.get(j))>=0)
+                        {
+                            possiblePlayers.remove(j);
+                            j--;
+                            continue;
+                        }
+                    }
+                }
+                else
+                {
+                    if(guessPlayer.isJerseyNumberClose(correctPlayer))
+                    {
+                        if(!(possiblePlayers.get(j).isJerseyNumberClose(guessPlayer))||guessPlayer.compareJerseyNumber(possiblePlayers.get(j))<=0)
+                        {
+                            possiblePlayers.remove(j);
+                            j--;
+                            continue;
+                        }
+                    }
+                    else
+                    {
+                        if(guessPlayer.compareJerseyNumber(possiblePlayers.get(j))<=0)
+                        {
+                            possiblePlayers.remove(j);
+                            j--;
+                            continue;
+                        }
+                    }
+                }
+            }
+            guessPlayer = possiblePlayers.get(0);
+           // System.out.println("size = "+possiblePlayers.size());
+
+        }
+        return 9.0;
+    }
 }
