@@ -13,7 +13,7 @@ Reggie Jackson,6`2,32,1,G,Clippers,Thunder;Pistons
 Nicolas Batum,6`8,33,33,F,Clippers,Trail Blazers;Hornets
 Marcus Morris,6`8,33,8,F,Clippers,Rockets;Suns;Pistons;Celtics;Knicks
 Ivica Zubac,7`0,25,40,C,Clippers,Lakers
-Stephen Curry,6`2,34,30,G,Warriors,
+Steph Curry,6`2,34,30,G,Warriors,
 Klay Thompson,6`6,32,11,G,Warriors,
 Draymond Green,6`6,32,23,F,Warriors,
 Jordan Poole,6`4,23,3,G,Warriors,
