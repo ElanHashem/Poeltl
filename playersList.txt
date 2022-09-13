@@ -169,3 +169,6 @@ Myles Turner,6`11,26,33,C,Pacers,
 Chris Duarte,6`6,25,3,G,Pacers,
 RJ Barrett,6`6,22,9,F,Knicks,
 Juluis Randle,6`8,27,30,F,Knicks,Lakers;Pelicans
+Evan Fournier,6`7,29,13,G,Knicks,Nuggets;Magic;Celtics
+Mitchell Robinson,7`0,24,23,C,Knicks,
+Derrick Rose,6`2,33,4,G,Knicks,Bulls;Cavaliers;Timberwolves;Pistons
