@@ -11,6 +11,8 @@ Paul George,6`8,32,13,F,Clippers,Pacers;Thunder
 Terance Mann,6`5,25,14,G,Clippers,
 Reggie Jackson,6`2,32,1,G,Clippers,Thunder;Pistons
 Nicolas Batum,6`8,33,33,F,Clippers,Trail Blazers;Hornets
+Marcus Morris,6`8,33,8,F,Clippers,Rockets;Suns;Pistons;Celtics;Knicks
+Ivica Zubac,7`0,25,40,C,Clippers,Lakers
 Stephen Curry,6`2,34,30,G,Warriors,
 Klay Thompson,6`6,32,11,G,Warriors,
 Draymond Green,6`6,32,23,F,Warriors,
@@ -31,6 +33,7 @@ Seth Curry,6`2,32,30,G,Nets,Grizzlies;Cavaliers;Suns;Kings;Mavericks;Trail Blaze
 Bruce Brown,6`4,26,1,F,Nets,Pistons
 Nic Claxton,6`11,23,33,C,Nets,
 Patty Mills,6`1,34,8,G,Nets,Spurs;Trail Blazers
+Ben Simmons,6`11,26,25,F,Nets,76ers
 LaMelo Ball,6`7,20,2,G,Hornets,
 Miles Bridges,6`6,24,0,F,Hornets,
 Kelly Oubre Jr,6`7,27,12,F,Hornets,Wizards;Suns;Warriors
@@ -172,3 +175,18 @@ Juluis Randle,6`8,27,30,F,Knicks,Lakers;Pelicans
 Evan Fournier,6`7,29,13,G,Knicks,Nuggets;Magic;Celtics
 Mitchell Robinson,7`0,24,23,C,Knicks,
 Derrick Rose,6`2,33,4,G,Knicks,Bulls;Cavaliers;Timberwolves;Pistons
+Obi Toppin,6`9,24,1,F,Knicks,
+Immanuel Quickley,6`3,23,5,G,Knicks,
+Scottie Barnes,6`9,21,4,F,Raptors,
+OG Anunoby,6`7,25,3,F,Raptors,
+Fred VanVleet,6`1,28,23,G,Raptors
+Pascal Siakam,6`9,28,43,F,Raptors,
+Gary Trent Jr,6`5,23,33,G,Raptors,Trail Blazers
+Chris Boucher,6`9,29,25,C,Raptors,Warriors
+Precious Achiuwa,6`8,22,5,F,Raptors,Heat
+James Harden,6`5,33,1,G,76ers,Thunder;Rockets;Nets
+Joel Embiid,7`0,28,21,C,76ers,
+Tyrese Maxey,6`2,21,0,G,76ers,
+Tobias Harris,6`8,30,12,F,76ers,Bucks;Magic;Pistons;Clippers
+Danny Green,6`6,35,14,G,76ers,Cavaliers;Spurs;Raptors;Lakers
+Shake Milton,6`5,25,18,G,76ers,
