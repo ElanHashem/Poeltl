@@ -156,7 +156,7 @@ public class Poeltl
 
         }
         scan.close();
-
+        System.out.println("The Correct player is "+correctPlayer.getName());
     }
 
 }
